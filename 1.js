@@ -1,7 +1,7 @@
-const temp = Number.parseFloat(prompt('Введите температуру'));
-alert(`Цельсий: ${temp}, Фаренгейт: ${convF(temp)}`);
+const celcius = Number.parseFloat(prompt('Введите температуру по Цельсию'));
+alert(`Цельсий: ${celcius}, Фаренгейт: ${Math.round(convCelToFaren(celcius))}`);
 
-function convF(num) {
-    return Math.round((9/5) * num + 32);    
+function convCelToFaren(num) {
+    return ((9/5) * num + 32);    
 }
 
