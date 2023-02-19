@@ -7,19 +7,14 @@ function greeting(name) {
 
 
 // const userData = prompt("Введите имя");
-// const age = parseInt(prompt(greeting(userData)));
-
-// ageCompare(age, userData);
-
-
+// greeting(userData);
+// const age = Number.parseInt(prompt('Сколько Вам лет?'))
+// if (0 < age < 50 ) {
+//     alert(`${userData}, Вы так молоды!`);
+// } else {
+//     alert(`Мое почтение, ${userData}`);
+// }
 // function greeting(name) {
-//     alert(`Привет, ${name}! Сколько Вам лет?`)
+//     alert(`Привет, ${name}! Продолжим знакомство?`)
 // }
 
-// function ageCompare(num, name) {
-//     if (0 < num < 50) {
-//         alert(`${name}, Вы так молоды!`);
-//     } else {
-//         alert(`Мое почтение, ${name}`);
-//     }
-// }
